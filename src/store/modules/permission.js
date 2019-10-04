@@ -1,8 +1,8 @@
-import $router from '../router/index'
-import $store from './store'
-import $requestAPI from '../api/index'
-import { getToken } from '../utils/token'
-import {getNameByUrlOrPath, getPathByUrl} from '../utils/StringUtils'
+import $router from '../../router/index'
+import $store from '../store'
+import $requestAPI from '../../api/index'
+import { getToken } from '../../utils/token'
+import {getNameByUrlOrPath, getPathByUrl} from '../../utils/StringUtils'
 import Vue from 'vue'
 import { Loading } from 'element-ui'
 
@@ -78,9 +78,9 @@ $router.afterEach(() => {
 function menusToRoutes (data) {
   const routeArrays = []; // 全部路由数组
   const children = []; // 子路由数组
-  const layoutRoute = {path: '/', component: () => import('../components/Layout.vue'), redirect: '/index', name: 'layout', children};
-  const indexRoute = { path: '/index', css: 'fa fa-home', title: '首页', name: 'index', component: () => import('../components/Index.vue') };
-  const errorRoute = {path: '/error', css: '', title: '错误页', name: 'error', component: () => import('../components/Error.vue')};
+  const layoutRoute = {path: '/', component: () => import('../../components/Layout.vue'), redirect: '/index', name: 'layout', children};
+  const indexRoute = { path: '/index', css: 'fa fa-home', title: '首页', name: 'index', component: () => import('../../components/Index.vue') };
+  const errorRoute = {path: '/error', css: '', title: '错误页', name: 'error', component: () => import('../../components/Error.vue')};
   // 框架布局路由
   routeArrays.push(layoutRoute);
   // 框架进入后首页子路由

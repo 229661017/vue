@@ -1,6 +1,6 @@
 # vue
 
-> A Vue.js project
+> 前端框架，与后端通过json与表单交互
 
 ## Build Setup
 
@@ -27,4 +27,22 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Src文件说明
+### api
+后端API请求接口
+### assets
+### components
+存放公共的vue视图
+### icons
+svg 图标
+### plugins
+各种插件
+### router
+路由组件
+### store
+内存存储组件
+### utils
+工具文件
+### views
+vue视图
+

@@ -20,6 +20,7 @@
     "qs": "^6.8.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
+    "svg-sprite-loader": "^4.1.6",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1",

@@ -73,6 +73,6 @@ export default {
     padding-right: 0px;
   }
   .el-popper[x-placement^="bottom"] {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 </style>

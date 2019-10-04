@@ -1,8 +1,8 @@
 <template>
-  <el-dropdown @command="changeTheme">
-        <span class="">
-          <svg-icon class="" icon-class="pifu" />
-        </span>
+  <el-dropdown trigger="click" @command="changeTheme">
+    <span class="" style="">
+      <svg-icon icon-class="svgIcon" icon-id="skin" />
+    </span>
     <el-dropdown-menu slot="dropdown">
       <el-dropdown-item command="science-blue">
         深空蓝
@@ -14,7 +14,7 @@
 <script>
 import '../assets/theme/blue/css/skin.css'
 import {addClass, removeClass} from '../utils/CssClass'
-import IconSvg from './icons/IconSvg';
+import IconSvg from './SvgIcon';
 export default {
   name: 'Theme',
   components: {IconSvg},
@@ -47,5 +47,12 @@ export default {
 </script>
 
 <style scoped>
-
+.svgIcon {
+    font-size: 18px;
+    margin: 0px 15px;
+    display: inline-block;
+}
+.el-popper[x-placement^="bottom"] {
+    margin-top: 0px !important;
+}
 </style>
