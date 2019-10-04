@@ -1,0 +1,79 @@
+/*
+ * 1. 顶部栏目样式
+ */
+.science-blue .el-header {
+  background-image: url('../image/header-bg.jpg') !important;
+  border-bottom: 1px solid #2a68c9;
+}
+.top-header .title {
+  color: #ffffff;
+}
+.top-header .top-header-right .el-dropdown {
+  color: #ffffff;
+}
+
+/*
+ * 2、侧边栏
+ */
+.science-blue .left-sidebar {
+  background-color: #2a68c9;
+}
+.science-blue .left-sidebar .el-menu {
+  background-color: #2a68c9;
+}
+.science-blue .left-sidebar .el-menu-item i {
+  color: #fff;
+}
+.science-blue .left-sidebar .el-menu-item:hover,
+.science-blue .left-sidebar .el-menu-item:focus,
+.science-blue .left-sidebar .el-submenu__title:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.science-blue .left-sidebar .el-submenu__title {
+  color: #fff;
+}
+.science-blue .left-sidebar .el-submenu__title i {
+  color: #fff;
+}
+.science-blue .left-sidebar .el-menu-item {
+  color: #fff;
+}
+.science-blue .left-sidebar .el-menu-item.is-active {
+  color: #eeff41;
+}
+.science-blue .left-sidebar .el-menu-item.is-active i{
+  color: #eeff41;
+}
+
+/*
+ * 3. 主内容区域TAB
+ */
+.science-blue .el-main .el-main-tabs .el-tabs__nav .el-tabs__item {
+  border: 1px solid #2a68c9;
+}
+/*tab激活样式*/
+.science-blue .el-main .el-main-tabs .el-tabs__nav .el-tabs__item.is-active {
+  background-color: #2a68c9;
+  color: #ffffff;
+}
+/*tab滚动时 左右两侧按钮的样式*/
+.science-blue .el-main .el-main-tabs .el-tabs__nav-next,
+.science-blue .el-main .el-main-tabs .el-tabs__nav-prev {
+  /*background-color: #2a68c9;*/
+  /*color: #ffffff;*/
+}
+
+/*
+ * 4. 滚动条样式
+ */
+.el-scrollbar .el-scrollbar__bar .el-scrollbar__thumb {
+   background-color: rgba(42,104,201,0.8);
+}
+
+/*
+ * 底部样式
+ */
+.science-blue .el-footer .footer-warp {
+  background-color: #2a68c9;
+  color: #ffffff;
+}
